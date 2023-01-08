@@ -1,0 +1,4 @@
+Resources for the project
+Date: 08/01/2023
+1) Since this is a windows service application we will be using DotNet Framework for the development process.
+2) Further Tech Stack would be added on further if required
