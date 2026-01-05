@@ -1,4 +1,4 @@
-# satark
+# Satark
 
 [![Built with .NET](https://img.shields.io/badge/Built%20with-.NET-512BD4?style=flat-square)](https://dotnet.microsoft.com)
 [![Status](https://img.shields.io/badge/status-alpha-yellow?style=flat-square)]()
@@ -59,7 +59,7 @@ A lightweight Windows backend service that notifies when a computer powers on. D
    sc start SatarkService
    ```
 
-(Replace commands above with actual build/run steps if different.)
+(Replace commands above with actual build/run steps if different.) - TO BE UPDATED
 
 ## Configuration
 
@@ -83,6 +83,7 @@ Example (appsettings.json snippet):
 
 ## Roadmap & Logs
 
+- Update Readme with AI
 - 2024-01-01: Planned: initial Firebase integration.
 - Future: Add support for additional notification APIs, improve reliability, add CI and tests.
 
@@ -90,7 +91,7 @@ Example (appsettings.json snippet):
 
 Contributions welcome — open issues and PRs. Consider adding a CONTRIBUTING.md for contribution guidelines and code style.
 
-## License
+## License - NEEDS UPDATE
 
 Add a LICENSE file to clarify terms. Example (if you choose MIT):
 
