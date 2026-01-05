@@ -29,10 +29,7 @@ A lightweight Windows backend service that notifies when a computer powers on. D
 - Small footprint and easy configuration
 
 ## Demo / Screenshot
-
-![satark screenshot](https://user-images.githubusercontent.com/66715404/218272255-66499d0b-ca79-4bfe-b40b-d683a0096041.png)
-
-*Figure: Example status/screenshot.*
+- ## To be Updated
 
 ## Quick Start
 
