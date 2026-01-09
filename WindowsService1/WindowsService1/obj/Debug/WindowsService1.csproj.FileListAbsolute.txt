@@ -1,0 +1,7 @@
+D:\GitHub Repos 2026\satark\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe.config
+D:\GitHub Repos 2026\satark\WindowsService1\WindowsService1\bin\Debug\WindowsService1.exe
+D:\GitHub Repos 2026\satark\WindowsService1\WindowsService1\bin\Debug\WindowsService1.pdb
+D:\GitHub Repos 2026\satark\WindowsService1\WindowsService1\obj\Debug\WindowsService1.csproj.AssemblyReference.cache
+D:\GitHub Repos 2026\satark\WindowsService1\WindowsService1\obj\Debug\WindowsService1.csproj.CoreCompileInputs.cache
+D:\GitHub Repos 2026\satark\WindowsService1\WindowsService1\obj\Debug\WindowsService1.exe
+D:\GitHub Repos 2026\satark\WindowsService1\WindowsService1\obj\Debug\WindowsService1.pdb
