@@ -80,7 +80,9 @@ Example (appsettings.json snippet):
 
 ## Roadmap & Logs
 
-- Update Readme with AI
+- 09-01-2026: Test Service run unsuccessful/Need to understand more about win services in depth.
+- 08-01-2026: Created Windows Service Template from Winos Service Resources
+- 05-01-2026: Update Readme with AI
 - 2024-01-01: Planned: initial Firebase integration.
 - Future: Add support for additional notification APIs, improve reliability, add CI and tests.
 
