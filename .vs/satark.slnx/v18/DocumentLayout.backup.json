@@ -38,8 +38,7 @@
               "RelativeToolTip": "WindowsService1\\WindowsService1\\Service1.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:25:28.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T04:25:28.204Z"
             },
             {
               "$type": "Document",
@@ -49,7 +48,7 @@
               "RelativeDocumentMoniker": "WindowsService1\\WindowsService1\\Service1.cs",
               "ToolTip": "D:\\GitHub Repos 2026\\satark\\WindowsService1\\WindowsService1\\Service1.cs",
               "RelativeToolTip": "WindowsService1\\WindowsService1\\Service1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-09T04:25:18.606Z",
               "EditorCaption": ""
@@ -62,7 +61,7 @@
               "RelativeDocumentMoniker": "WindowsService1\\WindowsService1\\Program.cs",
               "ToolTip": "D:\\GitHub Repos 2026\\satark\\WindowsService1\\WindowsService1\\Program.cs",
               "RelativeToolTip": "WindowsService1\\WindowsService1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-09T04:25:15.785Z",
               "EditorCaption": ""
@@ -77,8 +76,7 @@
               "RelativeToolTip": "main.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:25:10.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T04:25:10.457Z"
             }
           ]
         }

@@ -19,6 +19,7 @@ namespace WindowsService1
 
         protected override void OnStart(string[] args)
         {
+            EventLog.WriteEntry("Service1 started.");
         }
 
         protected override void OnStop()
