@@ -80,6 +80,7 @@ Example (appsettings.json snippet):
 
 ## Roadmap & Logs
 
+- 12-01-2026: Added issue to the repository
 - 09-01-2026: Test Service run unsuccessful/Need to understand more about win services in depth.
 - 08-01-2026: Created Windows Service Template from Winos Service Resources
 - 05-01-2026: Update Readme with AI
