@@ -58,7 +58,7 @@ A lightweight Windows backend service that notifies when a computer powers on. D
 
 (Replace commands above with actual build/run steps if different.) - TO BE UPDATED
 
-## Configuration
+## Configuration - to be update #WIP
 
 - Firebase: Provide your Firebase credentials (service account JSON or environment variables).
 - Notification endpoint: Configure the target API or webhook the service should call when a power-on event is detected.
