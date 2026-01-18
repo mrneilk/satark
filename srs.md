@@ -1,5 +1,5 @@
 Software Requirements Specification (SRS)
-Project: BootNotifier Windows Service
+Project: Satark
 Version: 1.0
 Date: January 18, 2026
 1. Introduction
