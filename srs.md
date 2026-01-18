@@ -8,7 +8,7 @@ Date: January 18, 2026
 # 1. Introduction
 
 ## 1.1 Purpose
-This document defines the functional and non-functional requirements for a Windows background service ("BootNotifier") that monitors system boot events and delivers a push notification to a mobile device via ntfy.sh. This SRS focuses on behavior, deployment, monitoring, and testing of the headless service.
+This document defines the functional and non-functional requirements for a Windows background service ("Satark") that monitors system boot events and delivers a push notification to a mobile device via ntfy.sh. This SRS focuses on behavior, deployment, monitoring, and testing of the headless service.
 
 ## 1.2 Intended Audience
 - Developers implementing the service
@@ -79,7 +79,7 @@ flowchart LR
 ## 4.2 Production Environment
 - Runtime: .NET 8 Runtime (Desktop or Server)
 - Install: Administrative privileges required to create/run service
-- Path: Recommended installation directory: C:\Program Files\BootNotifier\
+- Path: Recommended installation directory: C:\Program Files\Satark\
 
 ---
 
@@ -122,16 +122,16 @@ Boot completed on HOSTNAME (192.0.2.1) at 2026-01-18T10:00:00Z
 
 - Installation (admin):
   - Publish single-file, trimmed executable.
-  - Copy to C:\Program Files\BootNotifier\BootNotifier.exe
-  - Run: sc.exe create "BootNotifier" binpath= "C:\Program Files\BootNotifier\BootNotifier.exe" start= auto
+  - Copy to C:\Program Files\Satark\Satark.exe
+  - Run: sc.exe create "Satark" binpath= "C:\Program Files\Satark\Satark.exe" start= auto
 - Monitoring:
-  - Check Event Viewer -> Windows Logs -> Application -> Source: BootNotifier
+  - Check Event Viewer -> Windows Logs -> Application -> Source: Satark
   - Use the ntfy mobile app to receive push notifications
 - Local diagnostics:
   - Run the EXE from a console with `--console` or `--verbose` flags to see immediate logs.
 
 Example Event Viewer success entry:
-- Source: BootNotifier
+- Source: Satark
 - Event ID: 1000
 - Message: "Boot notification sent to ntfy.sh/my-topic — 200 OK — 2026-01-18T10:00:00Z"
 
@@ -159,13 +159,13 @@ Example Event Viewer success entry:
 # 8. Deployment Checklist (actionable)
 
 - [ ] Publish as "Single File" and "Trimmed" to reduce footprint.
-- [ ] Copy BootNotifier.exe and appsettings.json to C:\Program Files\BootNotifier\
+- [ ] Copy Satark.exe and appsettings.json to C:\Program Files\Satark\
 - [ ] Set config (topic, Title header, retry count)
 - [ ] Run PowerShell as Admin:
 ```powershell
-sc.exe create "BootNotifier" binpath= "C:\Program Files\BootNotifier\BootNotifier.exe --service" start= auto
-sc.exe description "BootNotifier" "Sends boot completion notifications to ntfy.sh"
-sc.exe failure "BootNotifier" reset= 86400 actions= restart/60000
+sc.exe create "Satark" binpath= "C:\Program Files\Satark\Satark.exe --service" start= auto
+sc.exe description "Satark" "Sends boot completion notifications to ntfy.sh"
+sc.exe failure "Satark" reset= 86400 actions= restart/60000
 ```
 - [ ] Configure service recovery in services.msc: "Restart the Service" on first/second failure
 - [ ] Verify Event Viewer entries after next reboot
@@ -173,7 +173,7 @@ sc.exe failure "BootNotifier" reset= 86400 actions= restart/60000
 ---
 
 # 9. Configuration (example JSON)
-Place this file next to the executable as `appsettings.bootnotifier.json` (permission: Administrators only).
+Place this file next to the executable as `appsettings.Satark.json` (permission: Administrators only).
 
 ```json
 {
@@ -185,7 +185,7 @@ Place this file next to the executable as `appsettings.bootnotifier.json` (permi
     "Title": "System Alert",
     "Priority": "high"
   },
-  "LogSourceName": "BootNotifier"
+  "LogSourceName": "Satark"
 }
 ```
 
@@ -194,7 +194,7 @@ Place this file next to the executable as `appsettings.bootnotifier.json` (permi
 # 10. Observability & Logging
 - All attempts are logged to Application event log with:
   - timestamp, attempt number, result code, response body summary (truncated)
-- Use Event Source "BootNotifier" and Event ID conventions:
+- Use Event Source "Satark" and Event ID conventions:
   - 1000 — Notification Sent (Success)
   - 1001 — Notification Failed (Transient)
   - 1002 — Notification Failed (Permanent)
@@ -214,7 +214,7 @@ Place this file next to the executable as `appsettings.bootnotifier.json` (permi
 ## CLI examples
 - Run in console mode:
 ```powershell
-C:\Program Files\BootNotifier\BootNotifier.exe --console --config "C:\Program Files\BootNotifier\appsettings.bootnotifier.json"
+C:\Program Files\Satark\Satark.exe --console --config "C:\Program Files\Satark\appsettings.Satark.json"
 ```
 
 ## Troubleshooting quick tips
