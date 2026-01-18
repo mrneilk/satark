@@ -19,3 +19,7 @@ https://learn.microsoft.com/en-us/dotnet/framework/windows-services/
 
 change updates - 
 - https://learn.microsoft.com/en-us/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer
+- https://stackoverflow.com/questions/11573724/windows-service-start-failure-cannot-start-service-from-the-command-line-or-deb
+- https://www.youtube.com/watch?v=uM9o8GsO_u4 
+
+To read and visit above link, kinda old but looks it will work

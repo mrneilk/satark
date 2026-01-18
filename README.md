@@ -58,7 +58,7 @@ A lightweight Windows backend service that notifies when a computer powers on. D
 
 (Replace commands above with actual build/run steps if different.) - TO BE UPDATED
 
-## Configuration
+## Configuration - to be update #WIP
 
 - Firebase: Provide your Firebase credentials (service account JSON or environment variables).
 - Notification endpoint: Configure the target API or webhook the service should call when a power-on event is detected.
@@ -80,6 +80,8 @@ Example (appsettings.json snippet):
 
 ## Roadmap & Logs
 
+- 14-01-2026: Issue updated with possible solution resource - TBC
+- 12-01-2026: Added issue to the repository
 - 09-01-2026: Test Service run unsuccessful/Need to understand more about win services in depth.
 - 08-01-2026: Created Windows Service Template from Winos Service Resources
 - 05-01-2026: Update Readme with AI
