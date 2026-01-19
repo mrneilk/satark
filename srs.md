@@ -10,7 +10,7 @@ Date: January 18, 2026
 ## 1.1 Purpose
 This document defines the functional and non-functional requirements for a Windows background service ("Satark") that monitors system boot events and delivers a push notification to a mobile device via ntfy.sh. This SRS focuses on behavior, deployment, monitoring, and testing of the headless service.
 
-## 1.2 Intended Audience
+## 1.2 Intended Audience - To be updated - Current AUdience is Master user and repositry owner @mrneilk
 - Developers implementing the service
 - System administrators installing and operating the service
 - QA engineers creating automated and manual tests
