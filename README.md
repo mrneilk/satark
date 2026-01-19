@@ -97,10 +97,7 @@ Example (appsettings.json snippet):
 
 Contributions welcome — open issues and PRs. Consider adding a CONTRIBUTING.md for contribution guidelines and code style.
 
-## License - NEEDS UPDATE
-
-Add a LICENSE file to clarify terms. Example (if you choose MIT):
-
+## License -
 ```
 MIT © mrneilk
 ```
