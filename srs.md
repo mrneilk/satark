@@ -43,16 +43,21 @@ A lightweight headless Windows Service that:
 
 # 3. Process Flow (visual + collapsible details)
 
-```mermaid
-flowchart LR
-  A[Boot / SCM starts service] --> B[Stabilization: wait 30s]
-  B --> C{Network available?}
-  C -- Yes --> D[Send async POST to https://ntfy.sh/{topic}]
-  C -- No --> E[Retry up to 3 times w/ backoff]
-  D --> F[Log Success to Event Viewer]
-  E --> F
-  F --> G[Enter low-resource idle loop]
-```
+flowchart TD
+    A[Boot / SCM starts service] --> B[Wait 30s]
+    B --> C{Network OK?}
+    
+    C -- No --> E[Retry 3x w/ Backoff]
+    E --> E_Check{Resolved?}
+    
+    E_Check -- No --> H[Log Error to Event Viewer]
+    E_Check -- Yes --> D
+    
+    C -- Yes --> D[Send async POST]
+    D --> F[Log Success to Event Viewer]
+    
+    F --> G[Idle Loop]
+    H --> G
 
 <details>
 <summary>Detailed stage table</summary>
