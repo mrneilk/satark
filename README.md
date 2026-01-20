@@ -83,6 +83,7 @@ Example (appsettings.json snippet):
 
 ## Roadmap & Logs
 
+- 20-01-2026: Testing updates failed status
 - 19-01-2026: Minor Changes to SRS
 - 18-01-2026: AI assisted Process Flow and SRS document update
 - 14-01-2026: Issue updated with possible solution resource - TBC
