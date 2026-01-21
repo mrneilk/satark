@@ -52,6 +52,7 @@ A lightweight Windows backend service that notifies when a computer powers on. D
 3. Configure notifications (see [Configuration](#configuration)).
 
 4. Install and run as a Windows service (replace with your service installer or sc.exe steps):
+   This will be updated once a package is released
 
    ```powershell
    # Example (replace ServiceName and paths):
