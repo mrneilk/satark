@@ -34,7 +34,7 @@ A lightweight Windows backend service that notifies when a computer powers on. D
 <p align="center">
 <img alt=".NET logo" src="https://github.com/mrneilk/satark/blob/main/Process%20Flow%20V1.png" width="160" length="500"/>
 </p>
-## Quick Start
+## Quick Start - Not Ready yet, to be updated when the program testing completes
 
 1. Clone the repo:
 
