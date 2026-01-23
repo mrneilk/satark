@@ -90,7 +90,7 @@ flowchart TD
 
 # 5. Specific Requirements (structured & actionable)
 
-## 5.1 External API Requirements (ntfy)
+## 5.1 External API Requirements (ntfy) - This is not agreed yet
 - Provider: ntfy.sh (HTTP)
 - Endpoint: POST https://ntfy.sh/{topic}
 - Required headers (example):
