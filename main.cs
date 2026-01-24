@@ -8,3 +8,5 @@
 // 24 Jan 2026 Still trying to figure out if this project should start from scratch or what??
 // I think this should be completely overhauled.. But how?
 // ok, lets change the name of this file first and it type
+// This file to be no more used
+// use the logfile.txt
