@@ -82,18 +82,9 @@ Example (appsettings.json snippet):
 }
 ```
 
-## Roadmap & Logs
+## Roadmap & Logs // Logs Moved to logfile.txt - to be updated
 
-- 20-01-2026: Testing updates failed status
-- 19-01-2026: Minor Changes to SRS
-- 18-01-2026: AI assisted Process Flow and SRS document update
-- 14-01-2026: Issue updated with possible solution resource - TBC
-- 12-01-2026: Added issue to the repository
-- 09-01-2026: Test Service run unsuccessful/Need to understand more about win services in depth.
-- 08-01-2026: Created Windows Service Template from Winos Service Resources
-- 05-01-2026: Update Readme with AI
-- 2024-01-01: Planned: initial Firebase integration.
-- Future: Add support for additional notification APIs, improve reliability, add CI and tests.
+
 
 ## Contributing
 
