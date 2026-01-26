@@ -90,7 +90,7 @@ Example (appsettings.json snippet):
 
 Contributions welcome — open issues and PRs. Consider adding a CONTRIBUTING.md for contribution guidelines and code style.
 
-## License -
+## License
 ```
 MIT © mrneilk
 ```
