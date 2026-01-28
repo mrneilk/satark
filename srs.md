@@ -81,7 +81,7 @@ flowchart TD
 - Language: C# 12
 - Libraries: Microsoft.Extensions.Hosting.WindowsServices, Microsoft.Extensions.Logging, System.Net.Http
 
-## 4.2 Production Environment
+## 4.2 Production Environment - this will change once a service is deployed in the system, maybe using a msi or exe installer
 - Runtime: .NET 8 Runtime (Desktop or Server)
 - Install: Administrative privileges required to create/run service
 - Path: Recommended installation directory: C:\Program Files\Satark\
