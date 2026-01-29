@@ -230,3 +230,4 @@ C:\Program Files\Satark\Satark.exe --console --config "C:\Program Files\Satark\a
 
 Revision history
 - 2026-01-18 — v1.0 — Initial structured & interactive SRS (this document)
+- 2026-01-29 - v1.0.1 - Published 29th Jan 2026 Minor Updates
