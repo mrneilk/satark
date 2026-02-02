@@ -9,6 +9,9 @@
 // I think this should be completely overhauled.. But how?
 // ok, lets change the name of this file first and it type
 
+updated logs Feb 2026
+-2nd Feb - Just checking, still stuck with unknowns
+
 Logs from Readme.md
 - 20-01-2026: Testing updates failed status
 - 19-01-2026: Minor Changes to SRS
