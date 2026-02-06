@@ -12,6 +12,7 @@
 updated logs Feb 2026
 -2nd Feb - Just checking, still stuck with unknowns
 -04 Feb 26 - Out of Ideas - Not really working
+-6th Feb 26 - Just making up things, dont know if this will work, I mean this thing already exists somewhere
 
 Logs from Readme.md
 - 20-01-2026: Testing updates failed status
