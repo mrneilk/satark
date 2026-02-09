@@ -70,17 +70,7 @@ A lightweight Windows backend service that notifies when a computer powers on. D
 
 Example (appsettings.json snippet):
 
-```json
-{
-  "Firebase": {
-    "ProjectId": "your-project-id",
-    "CredentialsPath": "./firebase-service-account.json"
-  },
-  "Notification": {
-    "Endpoint": "https://example.com/notify"
-  }
-}
-```
+//
 
 ## Roadmap & Logs // Logs Moved to logfile.txt - to be updated
 
