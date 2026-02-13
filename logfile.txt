@@ -15,6 +15,7 @@ updated logs Feb 2026
 -6th Feb 26 - Just making up things, dont know if this will work, I mean this thing already exists somewhere
 -11th Feb 2026 - lets check other alternative aprt from windows services - maybe a standalone application
 -11th Feb 2026 - Windows startup folder application build in any other language maybe python
+-13th Feb another application looks promising but will still use somekind of APIs Kesy and messaging framework
 
 Logs from Readme.md
 - 20-01-2026: Testing updates failed status
