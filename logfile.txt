@@ -16,6 +16,7 @@ updated logs Feb 2026
 -11th Feb 2026 - lets check other alternative aprt from windows services - maybe a standalone application
 -11th Feb 2026 - Windows startup folder application build in any other language maybe python
 -13th Feb another application looks promising but will still use somekind of APIs Kesy and messaging framework
+-13th Feb lets first learn the messaging and communication framework, I mean its all network communications
 
 Logs from Readme.md
 - 20-01-2026: Testing updates failed status
