@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\GitHub Repos 2026\\satark\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub Repos 2026\\satark\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub Repos 2026\\satark\\logfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:logfile.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub Repos 2026\\satark\\WindowsService1\\WindowsService1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WindowsService1\\WindowsService1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -30,11 +38,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "logfile.txt",
+              "DocumentMoniker": "D:\\GitHub Repos 2026\\satark\\logfile.txt",
+              "RelativeDocumentMoniker": "logfile.txt",
+              "ToolTip": "D:\\GitHub Repos 2026\\satark\\logfile.txt",
+              "RelativeToolTip": "logfile.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-25T07:45:37.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "D:\\GitHub Repos 2026\\satark\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "D:\\GitHub Repos 2026\\satark\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-01-25T07:44:54.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": ".gitignore",
               "DocumentMoniker": "D:\\GitHub Repos 2026\\satark\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -46,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Service1.Designer.cs",
               "DocumentMoniker": "D:\\GitHub Repos 2026\\satark\\WindowsService1\\WindowsService1\\Service1.Designer.cs",
               "RelativeDocumentMoniker": "WindowsService1\\WindowsService1\\Service1.Designer.cs",
@@ -58,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Service1.cs",
               "DocumentMoniker": "D:\\GitHub Repos 2026\\satark\\WindowsService1\\WindowsService1\\Service1.cs",
               "RelativeDocumentMoniker": "WindowsService1\\WindowsService1\\Service1.cs",
@@ -66,12 +100,11 @@
               "RelativeToolTip": "WindowsService1\\WindowsService1\\Service1.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:25:18.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T04:25:18.606Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\GitHub Repos 2026\\satark\\WindowsService1\\WindowsService1\\Program.cs",
               "RelativeDocumentMoniker": "WindowsService1\\WindowsService1\\Program.cs",
@@ -84,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "main.cs",
               "DocumentMoniker": "D:\\GitHub Repos 2026\\satark\\main.cs",
               "RelativeDocumentMoniker": "main.cs",
@@ -92,8 +125,11 @@
               "RelativeToolTip": "main.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-09T04:25:10.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-09T04:25:10.457Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
