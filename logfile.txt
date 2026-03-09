@@ -18,7 +18,8 @@ updated logs Feb 2026
 -13th Feb another application looks promising but will still use somekind of APIs Kesy and messaging framework
 -13th Feb lets first learn the messaging and communication framework, I mean its all network communications
 -24th Feb - Kind of dtandstill, no activity since last 10 days
--3rd Mar 2026 - No updates will work on decommissioning 
+-3rd Mar 2026 - No updates will work on decommissioning
+-9th Mar 2026 - Decomm begins next week, I am out of juice
 
 Logs from Readme.md
 - 20-01-2026: Testing updates failed status
