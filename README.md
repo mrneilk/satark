@@ -74,7 +74,7 @@ Example (appsettings.json snippet):
 
 ## Roadmap & Logs // Logs Moved to logfile.txt - to be updated
 
-
+Check logfiles
 
 ## Contributing
 
