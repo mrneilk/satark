@@ -82,7 +82,7 @@ Contributions welcome — open issues and PRs. Consider adding a CONTRIBUTING.md
 
 ## License
 ```
-MIT © mrneilk
+ GNU GENERAL PUBLIC LICENSE
 ```
 
 ---
